@@ -1,0 +1,16 @@
+O Step Functions é um serviço da AWS que permite organizar e gerar fluxos de trabalho distribuídos usando máquinas de estado, assim são chamados os passos.
+Resumindo, ele ajuda a coordenar diversas funções e serviços (da AWS) em um fluxo de trabalho, garantindo que cada etapa seja executada na ordem correta.
+
+*************************************************************************************
+Para que serve:
+* Orquestração de microserviços
+* Automatização de processos complexos
+* Execução de tarefas em sequência ou em paralelo
+* Monitoramento e visualização de fluxos de trabalho
+
+*************************************************************************************
+Exemplo de uso:
+Workflow de sugestão de jantar romântico com acompanhamentos, bebidas e locais (em Paris), consultando pelo Amazon Bedrock utilizando o Claude Haiku.
+Um workflow com 3 consultas que resultam em respostas da Ai generativa.
+
+Em resumo, AWS Step Functions facilita a criação e gestão de fluxos de trabalho complexos, assegurando a integração e execução ordenada de serviços AWS.
